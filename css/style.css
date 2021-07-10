@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body{
+background-color: black;
+}
+
+h1{
+    font-size: 45px;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+p{
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+label{
+    font-size: 25px;
+    font-weight: 600;
+}
+input{
+    margin-right: 20px;
+    padding: 10px;
+    /* border-radius: 7px; */
+    /* border: 18px; */
+    border: solid 1px #000;
+    margin-bottom: 10px;
+    width: 90%;
+    border: solid 2px #146ecc91;
+    border-radius: 5px;
+    /* display: block; */
+    /* text-transform: capitalize; */
+}
+select{
+    /* margin-left: 0px; */
+    margin-right: 10px;
+    padding: 5px;
+    width: 30%;
+    border: solid #3182bd63;
+}
+select.month{
+    /* margin-right: 10px; */
+}
+select.year{}
+select.day{}
+select.gender{
+    /* max-width: 122px; */
+    /* display: block; */
+}
+strong{
+    /* margin-top: 0px; */
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 3px;
+    color: #09090a78;
+}
+.Gender{}
+.b{
+    background: #25257121;
+    /* margin-bottom: 5px; */
+    padding-bottom: 25px;
+    padding-left: 7px;
+    display: block;
+    /* margin-bottom: 10px; */
+    margin-left: -5px;
+    flex-basis: 20%;
+}
+.c{
+    margin-left: 10px;
+}
+
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    width: -49px;
+    margin-top: 20px;
+}
+.col-1-2{
+    /* padding: 10px; */
+    flex-basis: 50%;
+}
+
+.container{
+         max-width: 804px;
+         /*max-height: 988px;*/
+         background-color:#BBBBBD;
+         margin: auto;
+         margin-top: 100px;
+         padding: 65px 0px 0px 40px;
+         margin-bottom: 100px;
+         /* margin-right: 125px; */
+         }
+
+
+.signup-form{
+    margin-bottom: -20px;
+}
+.from{}
+
+.birth-day{}
+
+
+span{
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+textarea{
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: solid 2px #289ac585;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    padding: 17px 40px;
+    border: 1px solid #deedfb;
+    font-size: 20px;
+    background-color: #fff;
+    color: #060404;
+    border-radius: 5px;
+    margin-right: 164px;
+    margin-bottom: 100px;
+}
